@@ -32,7 +32,7 @@
 // let [name, age = 18, city] = a;
 
 
-//                       ==================== 3: ... (WITH THREE DOT) ====================
+//                       ==================== 3: ... SPREAD SYNTAX (WITH THREE DOT) ====================
 let a = ["D.N.", "Ahmedabad", 18];
 let [name, ...rest] = a;
 

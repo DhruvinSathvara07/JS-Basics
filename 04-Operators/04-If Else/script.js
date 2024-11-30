@@ -4,12 +4,7 @@
   🌟~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~🌟
 
   **If-else statements** are used to make decisions in your code.
-  They allow your program to choose different actions based on conditions.
-
-  🚀 **Why do we need if-else statements?**
-  If-else statements help you check whether a condition is true or false and then take action accordingly.
-
-  💡 **Tip**: You'll use if-else statements to control what happens in your program based on conditions!
+  They allow comaparsion on your code
 
 */
 
@@ -24,12 +19,28 @@
  - It helps the program decide which path to take based on a condition.
 
  🚦 **Syntax** 🚦
+
    if (condition) { // 🚀 If the condition is true, do this...
       💡 Action for TRUE condition
    } else {         // ⏳ If the condition is false, do that...
       💡 Action for FALSE condition
    }
+*/
 
+const a = 5;
+const b = 10;
+
+// const a = 50;
+// const b = 10;
+
+if (a < b) {
+  document.write("B is greater than A");
+} else {
+  document.write("A is greater than B");
+}
+
+
+/*
  🔍 **Example** 🔍
    let age = 20;
 
@@ -43,10 +54,6 @@
    - 🧠 **Condition**: The test that evaluates to either `true` or `false` 🧐.
    - 🟢 **if Block**: Code to run when the condition is `true` ✅.
    - 🔴 **else Block**: Code to run when the condition is `false` ❌.
-
- 🌟 **Benefits** 🌟
-   - 💡 Decision-making: Allows your code to choose different actions.
-   - ⚙️ Control Flow: Keeps your code running smoothly like a well-oiled machine.
 
  ✨ Keep your code clean and flexible with the if...else statement! ✨
 

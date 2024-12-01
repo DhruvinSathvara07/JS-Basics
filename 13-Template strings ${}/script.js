@@ -1,29 +1,28 @@
-//               Template strings method called short name is *****BACK TICK METHOD******
+/**
+ * 🟢 **JavaScript: Template Strings (Backtick Method)** 🟢
+ *
+ * Backticks (`` ` ``) make strings easier to read and work with! 🎯
+ * You can easily add variables inside strings using `${}`. 📜
+ * Plus, you can write multi-line strings without worrying about `\n`. 📏
+ */
 
-//            you can write a js in any string using a backtick
-
-// Backticks (`` ` ``) in JavaScript are used to write strings and add variables inside `${}`.
-// Backticks (`` ` ``) in JavaScript are used to make strings and easily add variables or write on multiple lines.
-
-
+// Simple example:
 var a = "hello";
+document.write(`${a} D.N.Sathvara`);  // Output: hello D.N.Sathvara
 
-//           ==>*****This is very old method you can this easily using backtick *****<==
-
-// document.write(a + "D.N.Sathvara");
-
-//                         ===>This is very simple method <===
-// document.write(`${a} D.N.Sathvara`);
-
-
-
-
+// Using a function:
 var fname = "Sathvara";
 var lname = "Dhruvin";
-
 function fullname() {
-    return ` ${a} ${fname} ${lname} `
+    return `${a} ${fname} ${lname}`;
 }
+document.write(fullname());  // Output: hello Sathvara Dhruvin
 
-document.write(fullname());
+/**
+ * 💡 **Why use Template Strings?**
+ * - Easier to read and write! ✨
+ * - Add variables directly inside strings! 🛠️
+ * - Supports multi-line strings! 📝
+ */
 
+/*──── **Happy coding!** ──── 🎉 */
